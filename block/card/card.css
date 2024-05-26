@@ -1,0 +1,138 @@
+.card {
+  width: 200px;
+  height: 270px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+}
+
+.card:hover {
+  border: 1px solid yellow;
+}
+
+.card__image {
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.card__title-album {
+  color: #222;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.card__name-artist {
+  color: #777;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.card__album-year {
+  color: #777;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 4px;
+  line-height: 18px;
+}
+
+.card__overlay{
+  position: absolute;
+  top:10;
+  left: 10;
+  width: 200px;
+  height: 200px;
+  transition: background 0.4s linear;
+}
+
+.card:hover
+.card__overlay{
+  display: block;
+  background: rgb(0,0,0,0.6);
+}
+
+.card__button-conteiner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  /* border: 1px solid red; */
+}
+
+.card__button-play{
+  width: 40px;
+  height: 40px;
+  background-color: #ffdb4d;
+  background-image: url(../../image/play-small.svg);
+  cursor: pointer;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+  opacity: 0;
+}
+
+.card:hover
+.card__button-play{
+  opacity: 1;
+}
+
+.card__button-play:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.card__button-link{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #222;
+  background-image: url('../../image/shareWhite.svg');
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.card:hover
+.card__button-link{
+  opacity: 1;
+}
+
+.card__button-link:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.card__button-like{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #222;
+  background-image: url('../../image/heartWhite.svg');
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.card:hover
+.card__button-like{
+  opacity: 1;
+}
+
+.card__button-like:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+

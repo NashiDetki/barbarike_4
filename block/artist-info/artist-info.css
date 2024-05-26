@@ -1,0 +1,142 @@
+.artist-info{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.artist-info__conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.artist-info__conteiner-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-info__entity{
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #777;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.artist-info__title{
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  font-family: YSTextRegular,Arial,Helvetica,sans-serif;
+  color: #222;
+  margin-top: 17px;
+  margin-bottom: 7px;
+}
+
+.artist-info__summary{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: YSTextRegular,Arial,Helvetica,sans-serif;
+  color: rgba(0,0,0,.9);
+}
+
+.button__icon{
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  background: 50% no-repeat;
+}
+
+.icon__play{
+  background-image: url('../../image/play-small.svg');
+}
+
+.artist-info__button-listen{
+  width: 107px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFdb4d;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.artist-info__button-like{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 107px;
+  height: 40px;
+  border: 1px solid #777;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.icon__heart{
+  background-image: url('../../image/heart.svg');
+}
+
+.artist-info__button-round{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #777;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.icon__dowload{
+  background-image: url('../../image/share.svg');
+}
+
+.artist-info__button-potok{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 107px;
+  height: 40px;
+  border-radius: 20px;
+  border:1px solid #777;
+  font: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.icon__potok{
+  background-image: url('../../image/radio.svg');
+}
+
+.artist-info__button-dislike{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #777;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.icon__dislike{
+  background-image: url(../../image/circle-crossed.svg);
+}

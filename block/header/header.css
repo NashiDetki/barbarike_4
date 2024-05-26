@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #2b2a2a85;
+  margin-bottom: 30px;
+}
+
+.header__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 70px;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.header__menu-item-image {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../image/lupa.jpg);
+  opacity: 0.5;
+}
+
+.header__menu-item-image:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header__menu-item {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.header__menu-item:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-bottom: 3px solid red;
+}
